@@ -1,5 +1,18 @@
 # P6Documentation
 
+This project is used as a base for project documentation development. 
+When developing for this project, you will mostly want to do one of two things:
+* create a general, reusable component such as a header, a comment area, a profile picture...
+* create a page to display content that is reachable via routing.
+
+## 1 Creating a reusable component
+Navigate into `src/app/theme/components` in your commandline. *Inside* this folder, run `ng generate component [component name]` to create the necessary files and folders. This command will create 4 files for you in a folder named like your component. Put HTML markup inside the `.html` styling inside `.scss` and logic inside `.ts`.
+
+## 2 Adding a page
+Navigate into `src/app/pages` in your commandline. *Inside* this folder, run `ng generate component [page name]` to create the necessary files and folders. Then go into `src/app/app.routing.ts` to create a url for your page.
+
+# Angular CLi
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
 ## Development server
