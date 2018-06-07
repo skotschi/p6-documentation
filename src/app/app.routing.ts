@@ -21,7 +21,7 @@ const App_ROUTES: Routes = [
     {
         path: 'design/:article',
         component: DesignComponent
-    },
+    }
 ];
 
 
