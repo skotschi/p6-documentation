@@ -1,0 +1,56 @@
+@mixin no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* MEDIA QUERIES */
+@mixin screen-xs-landscape{
+  @media (max-width: #{$screen-small - 1px}) and (orientation: landscape){
+    @content;
+  }
+}
+
+@mixin screen-xs {
+  @media (max-width: #{$screen-small - 1px}) {
+    @content;
+  }
+}
+
+@mixin screen-sm {
+  @media (min-width: #{$screen-small}) {
+    @content;
+  }
+}
+
+@mixin screen-md {
+  @media (min-width: #{$screen-medium-small}) {
+    @content;
+  }
+}
+
+@mixin screen-lg {
+  @media (min-width: #{$screen-medium}) {
+    @content;
+  }
+}
+
+@mixin screen-xl {
+  @media (min-width: #{$screen-large}) {
+    @content;
+  }
+}
+
+/* HELPERS */
+@mixin clearfix{
+    &::after{
+        content: ".";
+        clear: both;
+        display: block;
+        visibility: hidden;
+        height: 0px;
+    }
+}

@@ -1,0 +1,107 @@
+@import './../../../../variables/_index';
+
+:host ::ng-deep .post{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    
+    blockquote p{
+        font-size: 22px;
+        line-height: 30px;
+        padding-left: $space-16;
+        font-weight: 300;
+
+        border-left: 2px solid $red;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: normal;
+        margin-top: 32px;
+        margin-bottom: 32px;        
+    }
+
+    ul {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: normal;
+        margin-top: $space-32;
+        margin-bottom: $space-32;
+        
+        padding-left: $space-24;
+        list-style: none;
+        
+        li{
+            position: relative;
+            padding-bottom: $space-4;
+
+            &::before{
+                content: "";
+
+                display: inline-block;
+                width: 6px;
+                height: 6px;
+                background-color: $black;
+                position: absolute;
+                border-radius: 50%;
+                left: -$space-24;
+                top: $space-8;
+                margin-left: 0;
+            }
+        }
+    }
+
+    figure.image-caption,figure.caption{
+        margin-top: 32px;
+        margin-bottom: 32px;
+        display: block;
+
+        img{
+            width: 100%;
+            border-radius: 4px;
+            overflow: hidden;
+            box-shadow: 0 0px 2px rgba(0,0,0,.5), 0 6px 12px rgba(0,0,0,0.16);
+        }
+
+        figcaption{
+            font-style: italic;
+            font-size: 14px;
+            line-height: 19px;
+            color: rgba($black-lighter, .75);
+            margin: $space-12 $space-4 0;
+        }
+    }
+
+    p code{
+        border-radius: 4px;
+        overflow: hidden;
+        box-shadow: 0 0px 2px rgba(0,0,0,.5), 0 6px 12px rgba(0,0,0,0.16);
+        display: inline;
+        vertical-align: baseline;
+        padding: 0 $space-4;
+    }
+
+    pre{
+        margin-top: 32px;
+        margin-bottom: 32px;
+
+        code{
+            border-radius: 4px;
+            overflow: hidden;
+            box-shadow: 0 0px 2px rgba(0,0,0,.5), 0 6px 12px rgba(0,0,0,0.16);
+            display: block;
+    
+            &.hljs-line-numbers{
+                border-radius: 4px 0 0 4px;
+    
+                & + code{
+                    border-radius: 0 4px 4px 0;
+                }
+            }
+        }
+    }
+}
