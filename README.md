@@ -14,7 +14,8 @@ Navigate into `src/app/pages` in your commandline. *Inside* this folder, run `ng
 # Electron
 
 Install electron `npm i -g electron` or for mac if you have access problems `sudo npm i -g electron --unsafe-perm=true`.
-Then run `npm run electron` to see your app in action.
+Go to `index.html` and uncomment this line `  <!--<base href="/">--> `. Then comment out `<base href="/">` above.
+Then run `npm run electron` to see your app in action. 
 
 # Angular CLi
 
