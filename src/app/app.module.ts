@@ -7,7 +7,6 @@ import { AppRoutingModule } from './app.routing';
 import { HomeComponent } from './pages/home/home.component';
 import { ThemeModule } from './theme/theme.module';
 import { DesignComponent } from './pages/design/design.component';
-import { ManagemenrtComponent } from './pages/managemenrt/managemenrt.component';
 import { ManagementComponent } from './pages/management/management.component';
 
 
@@ -16,7 +15,6 @@ import { ManagementComponent } from './pages/management/management.component';
     AppComponent,
     HomeComponent,
     DesignComponent,
-    ManagemenrtComponent,
     ManagementComponent,
   ],
   imports: [
