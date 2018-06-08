@@ -13,7 +13,9 @@ export class PostComponent implements OnChanges {
   /** The post's content in markdown */
   @Input() contentMD:string
 
-  constructor(private sanitizer: DomSanitizer) { }
+  constructor(private sanitizer: DomSanitizer) {
+    this.extensions();
+   }
 
   ngOnChanges() {
     this.convertMarkdown(this.contentMD);
@@ -22,8 +24,26 @@ export class PostComponent implements OnChanges {
 
 
   private convertMarkdown(md:string) {
-    let converter = new showdown.Converter({ tables: true, disableForced4SpacesIndentedSublists: true });
+    let converter = new showdown.Converter({ 
+      tables: true, 
+      disableForced4SpacesIndentedSublists: true,
+      extensions: ['layout-left'] 
+    });
     this.html = this.sanitizer.bypassSecurityTrustHtml(converter.makeHtml(md));
+  }
+
+  extensions() {
+    showdown.extension('layout-left', () => {
+      return ([
+        {
+          type: 'output',
+          regex: /%left%([^]+?)%-left%/gi,
+          replace: function(s, match) { 
+              return '<div class="left">' + match + '</div>';
+          }
+        }
+      ])
+    })
   }
 
 }

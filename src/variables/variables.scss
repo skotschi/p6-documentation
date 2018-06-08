@@ -12,17 +12,17 @@ $red: #E64560;
 $red-dark: #992E40;
 
 // spacings
-$space-4: 4px;
-$space-8: 8px;
-$space-12: 12px;
-$space-16: 16px;
-$space-24: 24px;
-$space-32: 32px;
-$space-48: 48px;
-$space-56: 48px;
-$space-64: 64px;
-$space-96: 96px;
-$space-120: 120px;
+// Sizes
+$SizeOne:      0.0625rem;  //  1 px
+$SizeTiny:          0.25rem;   //  4 px
+$SizeSmall:         0.5rem;  //  8 px
+$SizeRegular:       0.75rem;   // 12 px
+$SizeMedium:        1rem;       // 16 px
+$SizeLarge:         1.5rem;    // 24 px
+$SizeVeryLarge:     2rem;       // 32 px
+$SizeExtraLarge:    3rem;       // 48 px
+$SizeHuge:          6rem;       // 96 px
+$SizeWambo:         7.5rem;       // 120 px
 
 $screen-small : 768px;
 $screen-medium-small : 992px;
