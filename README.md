@@ -1,15 +1,35 @@
-# P6Documentation
+# P6 Documentation
 
 This project is used as a base for project documentation development. 
-When developing for this project, you will mostly want to do one of two things:
+When developing for this project, you will mostly want to do one of three things:
 * create a general, reusable component such as a header, a comment area, a profile picture...
-* create a page to display content that is reachable via routing.
+* create a page template to display content that is reachable via routing.
+* add content via markdown
 
 ## 1 Creating a reusable component
 Navigate into `src/app/theme/components` in your commandline. *Inside* this folder, run `ng generate component [component name]` to create the necessary files and folders. This command will create 4 files for you in a folder named like your component. Put HTML markup inside the `.html` styling inside `.scss` and logic inside `.ts`.
 
 ## 2 Adding a page
 Navigate into `src/app/pages` in your commandline. *Inside* this folder, run `ng generate component [page name]` to create the necessary files and folders. Then go into `src/app/app.routing.ts` to create a url for your page.
+
+
+## 3 Adding content via markdown
+You can easily add more content by adding a markdown file under `src/assets/articles`. In addition to markdown you can use yaml frontmatter to give your articles properties like an author name or a source-dictionary.
+Simply start you markdown file like this: 
+```yaml
+---
+author: paddi
+properties:
+    - something
+    - something else
+---
+
+# Markdown starts here
+So much to say!
+```
+Learn more about yaml [here](https://learnxinyminutes.com/docs/de-de/yaml-de/)
+
+See `src/app/pages/design/design.component.ts` for an example of how to include and parse markdown and yaml properties.
 
 # Electron
 

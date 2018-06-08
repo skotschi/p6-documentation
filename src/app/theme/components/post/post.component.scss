@@ -11,7 +11,7 @@
     blockquote p{
         font-size: 22px;
         line-height: 30px;
-        padding-left: $space-16;
+        padding-left: $SizeMedium;
         font-weight: 300;
 
         border-left: 2px solid $red;
@@ -29,15 +29,15 @@
         font-size: 18px;
         line-height: 24px;
         font-weight: normal;
-        margin-top: $space-32;
-        margin-bottom: $space-32;
+        margin-top: $SizeVeryLarge;
+        margin-bottom: $SizeVeryLarge;
         
-        padding-left: $space-24;
+        padding-left: $SizeLarge;
         list-style: none;
         
         li{
             position: relative;
-            padding-bottom: $space-4;
+            padding-bottom: $SizeTiny;
 
             &::before{
                 content: "";
@@ -48,8 +48,8 @@
                 background-color: $black;
                 position: absolute;
                 border-radius: 50%;
-                left: -$space-24;
-                top: $space-8;
+                left: -$SizeLarge;
+                top: $SizeSmall;
                 margin-left: 0;
             }
         }
@@ -72,7 +72,7 @@
             font-size: 14px;
             line-height: 19px;
             color: rgba($black-lighter, .75);
-            margin: $space-12 $space-4 0;
+            margin: $SizeRegular $SizeTiny 0;
         }
     }
 
@@ -82,7 +82,7 @@
         box-shadow: 0 0px 2px rgba(0,0,0,.5), 0 6px 12px rgba(0,0,0,0.16);
         display: inline;
         vertical-align: baseline;
-        padding: 0 $space-4;
+        padding: 0 $SizeTiny;
     }
 
     pre{
