@@ -4,7 +4,8 @@ import { PostComponent } from './components/post/post.component';
 
 import { RouterModule } from '@angular/router';
 import { Http, HttpModule } from '@angular/http';
-import { PagesService } from './services/pages.service';
+import { PageService } from './services/page.service';
+import { NavigationComponent } from './components/navigation/navigation.component';
 
 
 // Entry Points
@@ -14,6 +15,7 @@ const DIRECTIVES = [
 // Components
 const COMPONENTS = [
   PostComponent,
+  NavigationComponent,
 ]
 
 // modules
@@ -36,7 +38,7 @@ const MODULES = [
   ],
   providers:[
     AsyncPipe,
-    PagesService
+    PageService
   ],
   exports: [
     ...DIRECTIVES,

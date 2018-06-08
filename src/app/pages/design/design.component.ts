@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PagesService } from '../../theme/services/pages.service';
+import { PageService } from '../../theme/services/page.service';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -13,13 +13,13 @@ export class DesignComponent implements OnInit {
   author:string;
   articleMD:string;
 
-  constructor(private pagesService: PagesService,
+  constructor(private pageService: PageService,
               route: ActivatedRoute) { 
     // when route parameters are available OR change
     route.params.subscribe((params) => {
       this.articlePath = params.article;
 
-      this.pagesService.loadPageFromPath(this.articlePath).then(
+      this.pageService.loadPageFromPath(this.articlePath).then(
         (page) => {
           this.articleMD = page.md
           this.author = page.data.author

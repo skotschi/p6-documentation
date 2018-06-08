@@ -6,7 +6,7 @@ import * as frontmatter from 'front-matter'
 
 
 @Injectable()
-export class PagesService {
+export class PageService {
 
   constructor(private http:Http) { }
 
