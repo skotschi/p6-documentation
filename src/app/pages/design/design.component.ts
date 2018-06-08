@@ -10,6 +10,7 @@ import { ActivatedRoute } from '@angular/router';
 export class DesignComponent implements OnInit {
 
   articlePath:string;
+  author:string;
   articleMD:string;
 
   constructor(private pagesService: PagesService,
@@ -18,9 +19,10 @@ export class DesignComponent implements OnInit {
     route.params.subscribe((params) => {
       this.articlePath = params.article;
 
-      this.pagesService.loadMarkDownFromPath(this.articlePath).then(
-        (md) => {
-          this.articleMD = md
+      this.pagesService.loadPageFromPath(this.articlePath).then(
+        (page) => {
+          this.articleMD = page.md
+          this.author = page.data.author
         }
       )
     })
