@@ -27,19 +27,19 @@ export class PostComponent implements OnChanges {
     let converter = new showdown.Converter({ 
       tables: true, 
       disableForced4SpacesIndentedSublists: true,
-      extensions: ['layout'] 
+      extensions: ['layout-left'] 
     });
     this.html = this.sanitizer.bypassSecurityTrustHtml(converter.makeHtml(md));
   }
 
   extensions() {
-    showdown.extension('layout', () => {
+    showdown.extension('layout-left', () => {
       return ([
         {
           type: 'output',
-          regex: /%left%([^]+?)%leftend%/gi,
+          regex: /%left%([^]+?)%-left%/gi,
           replace: function(s, match) { 
-              return '<div class="custom">' + match + '</div>';
+              return '<div class="left">' + match + '</div>';
           }
         }
       ])

@@ -11,6 +11,7 @@ _u_
 
 %left%
 
-* will this be parsed?
+#lefty lefty
+* This goes left?
 
-%leftend%
+%-left%
