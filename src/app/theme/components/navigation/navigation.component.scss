@@ -1,0 +1,41 @@
+.main-wrap {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 80px auto;
+  grid-template-rows: 40px auto;
+  grid-template-areas:
+    "main-nav top-nav"
+    "main-nav content"
+}
+
+.top-nav {
+  grid-area: top-nav;
+  li {
+    display: inline;
+  }
+  svg {
+    width: 50px;
+  }
+}
+
+.main-nav {
+  grid-area: main-nav;
+  background-color: #fff;
+
+  box-shadow: inset -1px 0 0 0 rgba(0,0,0,0.2);
+  li {
+    margin-bottom: 4rem;
+    font-family: "Open Sans";
+  }
+  svg {
+    width: 50%;
+  }
+
+}
+
+nav ul, nav ol {
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  list-style-image: none;
+}
