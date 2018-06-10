@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { Http, HttpModule } from '@angular/http';
 import { PageService } from './services/page.service';
 import { NavigationComponent } from './components/navigation/navigation.component';
+import { HeaderComponent } from './components/header/header.component';
 
 
 // Entry Points
@@ -32,6 +33,7 @@ const MODULES = [
   declarations: [
     ...DIRECTIVES,
     ...COMPONENTS,
+    HeaderComponent,
   ],
   entryComponents: [
     ...DIRECTIVES

@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { DesignComponent } from './pages/design/design.component';
+import { ArticleComponent } from './pages/article/article.component';
 
 const App_ROUTES: Routes = [
     {
@@ -19,8 +20,8 @@ const App_ROUTES: Routes = [
         component: DesignComponent
     },
     {
-        path: 'design/:article',
-        component: DesignComponent
+        path: 'article/:article',
+        component: ArticleComponent
     },
 ];
 

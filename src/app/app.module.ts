@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app.routing';
 import { HomeComponent } from './pages/home/home.component';
 import { ThemeModule } from './theme/theme.module';
 import { DesignComponent } from './pages/design/design.component';
+import { ArticleComponent } from './pages/article/article.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { DesignComponent } from './pages/design/design.component';
     AppComponent,
     HomeComponent,
     DesignComponent,
+    ArticleComponent,
   ],
   imports: [
     AppRoutingModule,

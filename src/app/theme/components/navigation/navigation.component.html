@@ -1,22 +1,25 @@
 <div class="nav" *ngIf="isOpen">
   <div class="close" (click)="close()"></div>
-  <ul>
-    <ng-container *ngFor="let item of navigation">
-      <li>
-        <ng-container *ngIf="isObject(item)">
-          {{getMenuName(item)}}
-          <ul>
-            <ng-container *ngFor="let subitem of item.content">
-              <li>{{getMenuName(subitem)}}</li>
-            </ng-container>
-          </ul>
-        </ng-container>
-        <ng-container #single *ngIf="!isObject(item)">
-          <a>{{getMenuName(item)}}</a>
-        </ng-container>
-      </li>
-    </ng-container>
-  </ul>
+
+  <div class="nav-wrapper">
+    <ul>
+      <ng-container *ngFor="let item of navigation">
+        <li>
+          <ng-container *ngIf="isObject(item)">
+            {{getMenuName(item)}}
+            <ul>
+              <ng-container *ngFor="let subitem of item.content">
+                <li>{{getMenuName(subitem)}}</li>
+              </ng-container>
+            </ul>
+          </ng-container>
+          <ng-container #single *ngIf="!isObject(item)">
+            <a>{{getMenuName(item)}}</a>
+          </ng-container>
+        </li>
+      </ng-container>
+    </ul>
+  </div>
 
 </div>
 

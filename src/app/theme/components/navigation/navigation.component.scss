@@ -21,6 +21,13 @@
         height: $SizeExtraLarge;
         background: $white;
     }
+
+    .nav-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
 }
 .open{
     position: fixed;
