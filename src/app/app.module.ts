@@ -7,7 +7,6 @@ import { AppRoutingModule } from './app.routing';
 import { HomeComponent } from './pages/home/home.component';
 import { ThemeModule } from './theme/theme.module';
 import { DesignComponent } from './pages/design/design.component';
-import { ManagementComponent } from './pages/management/management.component';
 
 
 @NgModule({
@@ -15,7 +14,6 @@ import { ManagementComponent } from './pages/management/management.component';
     AppComponent,
     HomeComponent,
     DesignComponent,
-    ManagementComponent,
   ],
   imports: [
     AppRoutingModule,

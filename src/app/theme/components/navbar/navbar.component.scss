@@ -1,0 +1,32 @@
+.top-nav {
+    svg {
+      width: 50px;
+    }
+    li {
+      display: inline;
+    }
+  }
+  
+  .main-nav {
+    background-color: #fff;
+    grid-area: main-nav;
+    box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, 0.2);
+    svg {
+      fill: none;
+      stroke: #2d424c;
+      stroke-width: 1;
+      width: 40px;
+    }
+    li {
+      margin-bottom: 4rem;
+      font-family: "Open Sans";
+    }
+  }
+  
+  nav ul,
+  nav ol {
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    list-style-image: none;
+  }
