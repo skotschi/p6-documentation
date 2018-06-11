@@ -26,3 +26,21 @@ body{
 	-webkit-user-select:none;
 	-webkit-touch-callout: none;
 }
+
+nav ul,
+nav ol {
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  list-style-image: none;
+}
+
+#site-wrap {
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: 80px auto;
+	grid-template-rows: 40px auto;
+	grid-template-areas:
+	"side-nav top-nav"
+	"side-nav content";
+  }
