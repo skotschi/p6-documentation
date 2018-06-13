@@ -9,11 +9,11 @@ import { ManagementComponent } from './pages/management/management.component';
 import { TechComponent } from './pages/tech/tech.component';
 
 const App_ROUTES: Routes = [
-    // {
-    //     path: '',
-    //     redirectTo: 'home',
-    //     pathMatch: 'full'
-    // },
+    {
+        path: '',
+        redirectTo: 'home',
+        pathMatch: 'full'
+    },
     {
         path: 'home',
         component: HomeComponent
