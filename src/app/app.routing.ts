@@ -7,6 +7,7 @@ import { ConceptComponent } from './pages/concept/concept.component';
 import { FormalitiesComponent } from './pages/formalities/formalities.component';
 import { ManagementComponent } from './pages/management/management.component';
 import { TechComponent } from './pages/tech/tech.component';
+/* Test */
 
 const App_ROUTES: Routes = [
     {
