@@ -1,0 +1,11 @@
+app-navbar {
+  grid-area: top-nav;
+}
+
+app-sidebar {
+  grid-area: side-nav;
+}
+
+#content {
+  grid-area: content;
+}

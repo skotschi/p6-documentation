@@ -7,7 +7,11 @@ import { AppRoutingModule } from './app.routing';
 import { HomeComponent } from './pages/home/home.component';
 import { ThemeModule } from './theme/theme.module';
 import { DesignComponent } from './pages/design/design.component';
+import { ConceptComponent } from './pages/concept/concept.component';
+import { TechComponent } from './pages/tech/tech.component';
+import { PrototypeComponent } from './pages/prototype/prototype.component';
 import { ManagementComponent } from './pages/management/management.component';
+import { FormalitiesComponent } from './pages/formalities/formalities.component';
 
 
 @NgModule({
@@ -15,7 +19,11 @@ import { ManagementComponent } from './pages/management/management.component';
     AppComponent,
     HomeComponent,
     DesignComponent,
+    ConceptComponent,
+    TechComponent,
+    PrototypeComponent,
     ManagementComponent,
+    FormalitiesComponent,
   ],
   imports: [
     AppRoutingModule,
