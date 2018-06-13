@@ -1,7 +1,3 @@
-body {
-  margin: 0;
-}
-
 app-navbar {
   grid-area: top-nav;
 }
