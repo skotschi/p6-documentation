@@ -1,14 +1,46 @@
 @import './../../../../variables/_index';
+:host ::ng-deep .post {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  padding: 134px;
+  h1 {
+    font-family: MavenPro-Bold;
+    font-size: 48px;
+    color: #CD5D50;
+    letter-spacing: -0.3px;
+    margin-bottom: 60px;
+  }
+  
+  h2 {
+    font-family: MavenPro-Medium;
+    font-size: 36px;
+    color: #CD5D50;
+    letter-spacing: 0.18px;
+    margin-bottom: 32px;
+  }
 
-:host ::ng-deep .post{
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
-    
-    blockquote p{
+  .author-name {
+    opacity: 0.6;
+    font-family: OpenSans-SemiBold;
+    font-size: 13px;
+    color: #2D424C;
+    letter-spacing: 0.06px;
+  }
+
+  p {
+    font-family: OpenSans-Regular;
+    font-size: 20px;
+    color: #111111;
+    letter-spacing: 0.1px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    max-width: 85ch;
+  }
+  /*  blockquote p{
         font-size: 22px;
         line-height: 30px;
         padding-left: $SizeMedium;
@@ -103,5 +135,5 @@
                 }
             }
         }
-    }
+    } */
 }

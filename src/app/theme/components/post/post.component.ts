@@ -8,10 +8,10 @@ import * as showdown from 'showdown';
   styleUrls: ['./post.component.scss'],
 })
 export class PostComponent implements OnChanges {
-  html:string|SafeHtml;
-  
+  html: string|SafeHtml;
+
   /** The post's content in markdown */
-  @Input() contentMD:string
+  @Input() contentMD: string
 
   constructor(private sanitizer: DomSanitizer) {
     this.extensions();
@@ -23,11 +23,11 @@ export class PostComponent implements OnChanges {
 
 
 
-  private convertMarkdown(md:string) {
-    let converter = new showdown.Converter({ 
-      tables: true, 
+  private convertMarkdown(md: string) {
+    let converter = new showdown.Converter({
+      tables: true,
       disableForced4SpacesIndentedSublists: true,
-      extensions: ['layout-left'] 
+      extensions: ['layout-left']
     });
     this.html = this.sanitizer.bypassSecurityTrustHtml(converter.makeHtml(md));
   }
@@ -38,12 +38,12 @@ export class PostComponent implements OnChanges {
         {
           type: 'output',
           regex: /%left%([^]+?)%-left%/gi,
-          replace: function(s, match) { 
+          replace: function(s, match) {
               return '<div class="left">' + match + '</div>';
           }
         }
-      ])
-    })
+      ]);
+    });
   }
 
 }

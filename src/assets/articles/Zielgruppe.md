@@ -1,0 +1,31 @@
+---
+author: Max Pelzer
+---
+
+# Zielgruppe
+
+## Definition
+
+Die Zielgruppe ist eines der wichtigsten Merkmale innerhalb der Entwicklung eines Konzepts, sowohl für das Design im Allgemeinen, als auch für den Bereich des Marketing. Der Begriff Zielgruppe beschreibt eine Personengruppe, die gezielt auf etwas angesprochen bzw. erreicht werden soll. D.h. hierbei soll gezielt eine Gruppe durch ein Produkt, einen Service, sowie dem dazugehörigen Marketing eingefangen werden. TeamFlow hat faktisch zwei Zielgruppen, eine Gruppe die das Produkt kaufen soll und eine andere Gruppe die das Produkt am Ende nutzen soll.
+Die Gruppe der Kaufenden wird im Anwendungskontext und im Management noch genauer behandelt und erläutert.
+Die Gruppe der Menschen die TeamFlow nutzen ist an dieser Stelle hervorzuheben.
+Es gibt viele verschiedene Gründe warum Menschen in Coworking Spaces arbeiten. Zum Beispiel, weil sie kein eigenes Büro finden, sie von anderen Freelancern profitieren wollen, oder aber weil ihr Unternehmen ihnen dort ein Büro zur Verfügung stellt und keinen eigenen Platz hat. Ebenso gibt es viele Teams, die ganz bewusst einen Coworking Space als Arbeitsumgebung wählen, weil sie die Community und Atmosphäre schätzen.
+Gemein haben sie aber ihre soziale Lage und ihre Grundorientierung. Menschen, die in Coworking Spaces arbeiten, sind oftmals Teil der Mittelschicht im engeren Sinne, es sind aber auch Menschen aus der oberen Mittelschicht und Oberschicht vertreten. Dabei bilden sie eine Mischung aus dem Milieu der Performer, der Expeditiven und Adaptiv Pragmatischen. 
+Sie sind modern, jung und flexibel.  Sie verspüren einen starken Drang nach Spaß und Unterhaltung, trotzdem sind sie sowohl beruflich wie auch privat zielstrebig und konzentriert. Sie wollen Grenzen austesten und verfügen über dieFähigkeit moderne Technik selbst kreativ einzusetzen. Menschen, die Coworking Spaces nutzen, sind außerdem geografisch und mental mobil sowie kulturell weltoffen. 
+Beruflich sind sie ebenfalls divers. In Coworking Spaces finden sich verschiedenste Menschen. Studierende, Designer, Entwicklerinnen, Künstler, Erfinderinnen, Konzepter aber auch Personen aus dem Business Sektor wie Managerinnen oder Projektleiterinnen treffen sich hier unter einem Dach. 
+TeamTech entwickelt auf diesen Grundlagen eine detaillierte Persona, welche ihre Zielgruppe exemplarisch mit möglichen auftretenden Problemen vertritt.
+
+
+## Persona
+
+Marc ist 37 Jahre und geboren in Dreieich bei Frankfurt am Main. 
+Den Großteil seiner Kindheit verbringt er dort und zieht als Siebzehnjähriger mit seinem Vater nach Frankfurt, als seine Eltern sich trennen. Dort geht er auf die Begemann Schule und macht sein Abitur mit der Fachrichtung Wirtschaft.  Im Anschluss studiert er in Essen und Düsseldorf BWL. Seit 6 Jahren lebt er wieder in Frankfurt. Dort lernt er auch seine jetzige Lebensgefährtin kennen. Sie ist Physiotherapeutin. Beide leben in einer gemeinsamen Wohnung im Westend Frankfurts und wollen nächstes Jahr einen vierwöchigen Kultur- und Strandurlaub in Sri Lanka verbringen.
+Marc arbeitet seit 5 Jahren bei einer mittelständischen Agentur in Frankfurt und ist dort als Projektmanager angestellt. Meistens fährt er mit der U-Bahn zur Arbeit, außer das Wetter ist wirklich sehr gut, dann begibt er sich auch mal auf das Fahrrad. 
+Dabei arbeitet er die meiste Zeit in einem CoWorking Space in Frankfurt, den die Agentur für größere Projekte gemietet hat. Dort befindet sich sein Team, das oft aus Freelancern besteht. Außerdem haben sie dort auch einen Meeting-Raum, um sich mit Kunden zu treffen. Einen Tag die Woche, meistens Mittwoch, arbeitet er remote von zu Hause aus. Dies ist ein guter Tag, um auch mal Zeitung zu lesen und ein paar Blogs zu durchstöbern. Dort schaut er sich vor allem bei „Gründerszene“, „Wired“ und „The Verge“ um. Dazu hat er auch „Die Zeit“ abonniert.
+Marc ist ein aufgeschlossener aber ruhiger Mensch. Ihm macht seine Rolle als Projektleiter viel Spaß, weil er so immer einen Blick über das große Ganze hat. Auch die Verantwortung, die damit einhergeht, trägt er gerne und selbstbewusst. Jedoch fällt es ihm immer wieder schwer, auf einzelne Mitglieder in seinen Teams einzugehen und zu erkennen, wo ihre Stärken und Schwächen liegen und wie er sie am besten koordiniert. Marc meint: „Oftmals bleibt dafür einfach keine Zeit, ich habe immer andere Sachen im Kopf.“ Vor 4 Monaten war ein externer Management-Coach bei ihnen im Unternehmen und hat einen Workshop Tag durchgeführt. Für Marc war der Tag durchaus interessant, trotzdem fällt es ihm schwer das Gelernte täglich anzuwenden. Auch die Tatsache, dass seine Agentur immer wieder auf Freelancer zurückgreift um Projekte zu realisieren, macht es nicht leichter. Seine Projekte dauern im Schnitt zwischen zwei und sechs Monaten. In dieser kurzen Zeit ist es nicht leicht sich untereinander gut kennenzulernen und eine Basis für gute Zusammenarbeit zu schaffen.
+Auf seinem iPhone dürfen „Twitter“ und „Reddit“ nicht fehlen. Instagram benutzt er auch gerne, aber eher als Konsument und nicht als regelmäßiger Poster. Wenn er Abends sein Handy weglegt, sieht er mit seiner Freundin gerne “Breaking Bad” und “Narcos” auf Netflix. Vor allem am Wochenende kochen sie gerne zusammen, doch wenn sie mal zu faul sind, machen sie einen Abstecher zu “Hans im Glück” auf einen leckeren Burger. 
+Wenn Marc mal nicht schlafen kann, denkt er oft an die Arbeit und hat Angst, zu scheitern. Er weiß, welch große Verantwortung er trägt, bis jetzt hat er noch keinen Ärger oder Groll von der Geschäftsleitung abbekommen, aber einige seiner Kollegen haben diesen schon deutlich zu spüren bekommen. Außerdem hofft er insgeheim seit einiger Zeit auf eine Gehaltserhöhung da er nun schon über 5 Jahre erfolgreich bei seiner Agentur arbeitet. Sein Gehalt liegt derzeit bei knapp 62000€ im Jahr.
+Zusammenfassend ist Marc ein geselliger Mann. Er genießt sein Leben und unternimmt viel mit seiner Freundin. Trotzdem ist sein Job als Projektmanager manchmal stressig und und verlangt ihm viel ab, dabei hat er das Gefühl, dass ihn manche Situationen in seinem Team überfordern. Jedoch gibt es sich bei allem viel Mühe und ist eine gewissenhafte Bezugsperson für sein Team.
+
+
+

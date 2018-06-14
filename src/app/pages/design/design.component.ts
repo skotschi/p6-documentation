@@ -9,12 +9,12 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class DesignComponent implements OnInit {
 
-  articlePath:string;
-  author:string;
-  articleMD:string;
+  articlePath: string;
+  author: string;
+  articleMD: string;
 
   constructor(private pagesService: PagesService,
-              route: ActivatedRoute) { 
+              route: ActivatedRoute) {
     // when route parameters are available OR change
     route.params.subscribe((params) => {
       this.articlePath = params.article;
