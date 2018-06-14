@@ -2,6 +2,9 @@
   background-color: #fff;
   grid-area: main-nav;
   box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, 0.2);
+  position: fixed;
+  height: 100%;
+width: 80px;
   svg {
       fill: none;
       stroke: #2d424c;
@@ -9,7 +12,7 @@
       width: 40px;
   }
   li {
-      margin-bottom: 4rem;
+      margin-bottom: auto;
       font-family: "Open Sans";
   }
 }

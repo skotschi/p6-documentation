@@ -7,7 +7,7 @@ import { ConceptComponent } from './pages/concept/concept.component';
 import { FormalitiesComponent } from './pages/formalities/formalities.component';
 import { ManagementComponent } from './pages/management/management.component';
 import { TechComponent } from './pages/tech/tech.component';
-/* Test */
+import { PrototypeComponent } from './pages/prototype/prototype.component';
 
 const App_ROUTES: Routes = [
     {
@@ -32,7 +32,15 @@ const App_ROUTES: Routes = [
         component: ConceptComponent
     },
     {
+        path: 'concept/:article',
+        component: ConceptComponent
+    },
+    {
         path: 'formalities',
+        component: FormalitiesComponent
+    },
+    {
+        path: 'formalities:article',
         component: FormalitiesComponent
     },
     {
@@ -40,8 +48,24 @@ const App_ROUTES: Routes = [
         component: ManagementComponent
     },
     {
+        path: 'management/:article',
+        component: ManagementComponent
+    },
+    {
         path: 'technology',
         component: TechComponent
+    },
+    {
+        path: 'technology/:article',
+        component: TechComponent
+    },
+    {
+        path: 'prototype',
+        component: PrototypeComponent
+    },
+    {
+        path: 'prototype/:article',
+        component: PrototypeComponent
     }
 ];
 
